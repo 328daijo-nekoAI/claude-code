@@ -1,0 +1,14 @@
+{
+  "name": "multi-ai-hub",
+  "version": "0.1.0",
+  "description": "Multi AI Hub - AI team command center (zero-dependency Node.js app)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test --test-concurrency=1 tests/",
+    "zip": "node --disable-warning=ExperimentalWarning scripts/make-zip.js"
+  },
+  "license": "MIT"
+}
